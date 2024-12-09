@@ -90,3 +90,31 @@
     margin-right: 10px;
     margin-top: 20px;
 }
+
+#pos-items-table th{
+    color: #b5153d;
+    font-size: 14px;
+}
+
+#pos-items-table td {
+    font-size: 12px; 
+}
+
+.pos-items-button {
+    color: #b5153d;
+}
+
+#pos-items-table tbody tr:nth-child(even) {
+    background-color: #d4abb5;
+}
+
+.item-total {
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 14px;
+}
+
+.item-total-value {
+    float: right;
+    font-weight: bold;
+}
