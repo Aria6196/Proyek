@@ -118,3 +118,27 @@
     float: right;
     font-weight: bold;
 }
+
+.checkout-button-container {
+    margin: 100px 10px 10px 10px;
+    padding: 10px;
+    
+}
+
+.checkout-button {
+    font-weight: bold;
+    width: 100%;
+    font-size:20px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #b5153d;
+    border-radius: 5px;
+    display: block;
+    color: #b5153d;
+}
+
+.checkout-button:hover {
+    background-color: #b5153d;
+    color: #fff;
+    transition: 0.9;
+}
