@@ -142,3 +142,13 @@
     color: #fff;
     transition: 0.9;
 }
+
+
+.dialogProductName {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.float-right {
+    float: right;
+}
