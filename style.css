@@ -119,7 +119,7 @@
     font-weight: bold;
 }
 
-.checkout-button-container {
+.checkout-button-container, .logout-button-container {
     margin: 100px 10px 10px 10px;
     padding: 10px;
     
@@ -137,6 +137,10 @@
     color: #b5153d;
 }
 
+.logout-button-container {
+    max-width: 200px;
+}
+
 .checkout-button:hover {
     background-color: #b5153d;
     color: #fff;
@@ -151,4 +155,32 @@
 
 .float-right {
     float: right;
+}
+
+.itemNoData {
+    text-align: center;
+    font-size: 22px;
+    padding: 51px;
+    text-transform: uppercase;
+}
+
+.quantityUpdateButton {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.checkoutDialog .modal-dialog {
+    max-width: 919px !important;
+    width: 100% !important;
+}
+
+
+.bootstrap-dialog .modal-dialog {
+    max-height: 90vh; /* Atur tinggi maksimum dialog */
+    overflow-y: auto; /* Tambahkan scrollbar jika konten melebihi */
+}
+
+.bootstrap-dialog .modal-body {
+    max-height: 70vh; /* Atur tinggi maksimum isi dialog */
+    overflow-y: auto; /* Tambahkan scrollbar jika diperlukan */
 }

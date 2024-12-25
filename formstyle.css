@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+form{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    margin: 20px auto;
+
+}
+
+h1{
+    background-color: #fff;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+input[type="file"] {
+    padding: 5px;
+}
+
+input:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:active {
+    background-color: #3e8e41;
+}
+
+.backlist{
+    background-color: #fff;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+
+/* Responsif */
+@media (max-width: 480px) {
+    form {
+        padding: 15px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}
